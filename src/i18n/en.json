@@ -1,3 +1,9 @@
 {
-  
+  "navbar": {
+    "dashboard": "dashboard"
+  },
+  "languages": {
+    "es": "es",
+    "en": "en"
+  }
 }

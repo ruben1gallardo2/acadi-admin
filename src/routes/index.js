@@ -1,5 +1,6 @@
-// layouts
+import { createWebHistory, createRouter } from "vue-router";
 
+// layouts
 import Admin from "@/layouts/Admin.vue";
 import Auth from "@/layouts/Auth.vue";
 
@@ -73,4 +74,9 @@ const routes = [
   { path: "/:pathMatch(.*)*", redirect: "/" },
 ];
 
-export { routes }
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
+
+export { routes, router }

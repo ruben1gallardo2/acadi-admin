@@ -87,6 +87,7 @@
               <i class="fas fa-arrow-alt-circle-down"></i> Download
             </button>
           </li> -->
+          <dropdown-language />
         </ul>
       </div>
     </div>
@@ -95,6 +96,7 @@
 
 <script>
 import IndexDropdown from "@/components/Dropdowns/IndexDropdown.vue";
+import DropdownLanguage from "@/components/Dropdowns/Language.vue";
 
 export default {
   data() {
@@ -109,6 +111,7 @@ export default {
   },
   components: {
     IndexDropdown,
+    DropdownLanguage
   },
 };
 </script>
